@@ -19,7 +19,7 @@ export default function InputPhrase() {
 
   return (
     <>
-      <label>Favorite phrase:</label>
+      <label>Favorite phrase  </label>
       <input
         value={val}
         placeholder={phrase}

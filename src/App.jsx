@@ -15,9 +15,9 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App componentMaxWidth">
       <div className="component"><BasicStateEx /></div>
-      <div className="component">
+      <div className="component ">
         <LessText
           text={`Burning household rubbish in giant incinerators to make electricity is
         now the dirtiest way the UK generates power, BBC analysis has found.
