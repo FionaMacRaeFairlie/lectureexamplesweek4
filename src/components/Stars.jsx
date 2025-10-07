@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Star from "./Star";
 
 export default function StarRating({ totalStars = 5 }) {
@@ -14,7 +14,7 @@ export default function StarRating({ totalStars = 5 }) {
         />
       ))}
       <p>
-        {selectedStars} of {totalStars} stars{" "}
+        {selectedStars} of {totalStars} stars
       </p>
     </div>
   );

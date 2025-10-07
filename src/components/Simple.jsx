@@ -1,6 +1,4 @@
-import React from 'react';
-
-function Simple(_) {
+function Simple() {
     const simpleStyle = {
       color: "white",
       backgroundColor: "green",

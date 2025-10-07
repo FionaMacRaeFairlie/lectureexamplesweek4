@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export default function InputPhrase() {
   const [val, setValue] = useState("");
@@ -8,7 +8,7 @@ export default function InputPhrase() {
     setPhrase(val);
     setValue("");
   };
- 
+ console.log("Input 1")
   useEffect(() => {
     console.log(`typing "${val}"`);
   });
